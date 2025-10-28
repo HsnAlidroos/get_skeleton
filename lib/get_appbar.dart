@@ -11,6 +11,10 @@ class GetAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Color? color;
   final Widget? leadIcon;
   final double? elevation;
+  /// A custom widget to be placed inside the app bar, which will override the
+/// default layout of the leading icon, title, and actions.
+///
+/// Use this property when you need a completely custom design for the app bar content.
   final Widget? child;
 
   const GetAppBar({
